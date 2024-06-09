@@ -1,5 +1,16 @@
 {
     "cSpell.words": [
-        "fastapi"
-    ]
+        "Arepa",
+        "ASGI",
+        "astack",
+        "fastapi",
+        "jsonable",
+        "Morty",
+        "parameterless",
+        "pydantic",
+        "starlette",
+        "submodel",
+        "websockets"
+    ],
+    "python.analysis.autoImportCompletions": false
 }
