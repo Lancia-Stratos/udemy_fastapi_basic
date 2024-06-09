@@ -8,4 +8,4 @@ app = FastAPI()
 # async def root():
 #     return {"message": "hello world"}
 
-app.include_router(contact.router)
+app.include_router

@@ -13,7 +13,7 @@ async def create_contact():
     pass
 
 
-@router.get("/contacts/{id}")  # 詳細表示
+@router.get("/contacts/{is}")  # 詳細表示
 async def get_contact():
     pass
 
