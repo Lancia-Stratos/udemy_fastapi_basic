@@ -41,4 +41,4 @@ async def update_contact(id: int, body: contact_schema.Contact):
 
 @router.delete("/contacts/{id}", response_model=contact_schema.Contact)  # 削除
 async def delete_contact(id: int):
-    return
+    return contact_schema.Contact(id)

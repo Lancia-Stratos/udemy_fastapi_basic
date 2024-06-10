@@ -31,14 +31,24 @@ async def create_contact(body: contact_schema.Contact):
 
 @router.get("/contacts/{id}", response_model=contact_schema.Contact)  # 詳細表示
 async def get_contact(id: int):
-    return contact_schema.Contact(id)
+    return contact_schema.Contact(
+        id=1,
+        name="山田",
+        email="test@test.com",
+        phone="090-1234-5678",
+        url="https://test.com",
+        gender=1,
+        message="テスト",
+        created_at=dummy_date,
+        is_enabled=False,
+    )
 
 
-@router.put("/contacts/{id}", response_model=contact_schema.Contact)  # 更新
-async def update_contact(id: int, body: contact_schema.Contact):
-    return contact_schema.Contact(**body.model_dump())
+@router.put("/contacts/{id}")  # 更新
+async def update_contact():
+    pass
 
 
-@router.delete("/contacts/{id}", response_model=contact_schema.Contact)  # 削除
-async def delete_contact(id: int):
-    return
+@router.delete("/contacts/{id}")  # 削除
+async def delete_contact():
+    pass
