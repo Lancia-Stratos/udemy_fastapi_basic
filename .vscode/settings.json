@@ -1,13 +1,17 @@
 {
     "cSpell.words": [
+        "aiosqlite",
         "Arepa",
         "ASGI",
         "astack",
+        "autoflush",
         "fastapi",
         "jsonable",
         "Morty",
         "parameterless",
         "pydantic",
+        "sessionmaker",
+        "sqlalchemy",
         "starlette",
         "submodel",
         "websockets"
