@@ -16,5 +16,5 @@
         "submodel",
         "websockets"
     ],
-    "python.analysis.autoImportCompletions": false
+    "python.analysis.autoImportCompletions": true
 }
